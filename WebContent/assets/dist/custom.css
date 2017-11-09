@@ -1,0 +1,80 @@
+body{ background-color: #1a1a1a !important; }
+
+.bg-primary{ background-color: #800080 !important; }
+
+.btn-outline-primary {
+  color: #dc9b18;
+  background-image: none;
+  background-color: transparent;
+  border-color: #dc9b18;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #dc9b18;
+  border-color: #dc9b18;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #dc9b18;
+  background-color: transparent;
+}
+
+.btn-outline-primary:active, .btn-outline-primary.active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #dc9b18;
+  border-color: #dc9b18;
+}
+
+.card-header {
+	background-color: #dc9b18;
+  border-bottom: 1px solid #dc9b18;
+}
+
+.card-outline-primary {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #dc9b18 !important;
+}
+
+.card-columns {
+  @include media-breakpoint-only(md) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.navbar {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.text-dark {
+  color: #1a1a1a !important;
+}
+
+
+/* Zoom In #1 */
+.brand img, img {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.burger:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.brand:hover{
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: .5;
+}
